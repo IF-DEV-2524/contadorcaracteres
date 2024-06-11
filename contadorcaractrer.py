@@ -35,4 +35,4 @@ while(opcao != 0):
 
 #finalizando ...
 print("Encerrando aplicação de contagem de caracteres")
-#### print
+#### código antonio
