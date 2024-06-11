@@ -16,22 +16,25 @@ while(opcao != 0):
     if(opcao == 1 ):   
 
         #Pede o texto e o captura logo em seguida
-        print("Informe a palavra/texto desejada:\n")
+        print("\nInforme a palavra/texto desejada:\n")
         palavraTexto = input()
 
+        #Captura quantidade de palavras
+        quantidadePalavras = len(palavraTexto.split())
+
         #Captura a quantidade de caracteres das palavras existentes no texto 
-        quantidade = len(palavraTexto.replace(" ",""))
+        quantidadeTexto = len(palavraTexto.replace(" ",""))
 
         #Exibe em tela o resultado final da aplicação 
-        print(f"A quantidade de caracteres presentes na palvra/texto é ..: {quantidade}")
+        print(f"\nA quantidade de caracteres presentes na palvra/texto é ..: {quantidadeTexto}\nA quantidade de palavras é ..: {quantidadePalavras}\n")
 
     #Excessões serão consideradas como erro e então deverá ser selecionada a opção de acordo com o menu
     else:
-      print("Opção invalida favor selecione uma das opções apresentadas no menu abaixo:\n")
+      print("\nOpção invalida favor selecione uma das opções apresentadas no menu abaixo:\n")
 
     #Exibe novamente as opções de menu para definir se vamso encerrar ou seguir na aplicação
     print(menu)
     opcao = int(input())
 
 #finalizando ...
-print("Encerrando aplicação de contagem de caracteres")
+print("\nEncerrando aplicação de contagem de caracteres")
