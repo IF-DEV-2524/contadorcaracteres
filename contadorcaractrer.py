@@ -1,3 +1,5 @@
+#Elizângela
+
 #Declaração de variáveis base para aplicação
 palavraTexto = ""
 menu = "Menu de contador de caracteres\nOpção 1 para seguir a contagem de caracteres e 0 para encerrar contagem\n"
